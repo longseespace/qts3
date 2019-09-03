@@ -2,7 +2,7 @@
 
 #include "qts3_p.h"
 
-QPM_BEGIN_NAMESPACE(com, github, msorvig, s3)
+namespace com { namespace github { namespace msorvi { namespace s3 {
 
 // Hello! This file implements:
 //
@@ -844,4 +844,4 @@ int QtS3ReplyPrivate::intValue()
 
 QByteArray QtS3ReplyPrivate::bytearrayValue() { return m_byteArrayData; }
 
-QPM_END_NAMESPACE(com, github, msorvig, s3)
+} } } }

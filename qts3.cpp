@@ -1,7 +1,7 @@
 #include "qts3.h"
 #include "qts3_p.h"
 
-QPM_BEGIN_NAMESPACE(com, github, msorvig, s3)
+namespace com { namespace github { namespace msorvi { namespace s3 {
 
 /*
     \class QtS3
@@ -140,4 +140,4 @@ template <> bool QtS3Reply<bool>::value() { return d->boolValue(); }
 template <> int QtS3Reply<int>::value() { return d->intValue(); }
 template <> QByteArray QtS3Reply<QByteArray>::value() { return d->bytearrayValue(); }
 
-QPM_END_NAMESPACE(com, github, msorvig, s3)
+} } } }

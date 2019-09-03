@@ -3,7 +3,7 @@
 #include <QtCore>
 #include <QtNetwork/QNetworkReply>
 
-QPM_BEGIN_NAMESPACE(com, github, msorvig, s3)
+namespace com { namespace github { namespace msorvi { namespace s3 {
 
 BlockingNetworkAccessManager::BlockingNetworkAccessManager(QObject *parent)
     :QNetworkAccessManager(parent)
@@ -135,4 +135,4 @@ void ThreadsafeBlockingNetworkAccesManager::wakeWaitingThreads()
     m_waitCompleted.wakeAll();
 }
 
-QPM_END_NAMESPACE(com, github, msorvig, s3)
+} } } }

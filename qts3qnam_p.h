@@ -7,7 +7,7 @@
 
 #include "qpm.h"
 
-QPM_BEGIN_NAMESPACE(com, github, msorvig, s3)
+namespace com { namespace github { namespace msorvi { namespace s3 {
 
 class BlockingNetworkAccessManager : public QNetworkAccessManager
 {
@@ -51,6 +51,6 @@ private:
     bool m_cancellAll;
 };
 
-QPM_END_NAMESPACE(com, github, msorvig, s3)
+} } } }
 
 #endif

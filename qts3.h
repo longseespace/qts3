@@ -8,7 +8,7 @@
 
 #include "qpm.h"
 
-QPM_BEGIN_NAMESPACE(com, github, msorvig, s3)
+namespace com { namespace github { namespace msorvi { namespace s3 {
 
 class QtS3Private;
 class QtS3;
@@ -87,6 +87,6 @@ QtS3Reply<T>::QtS3Reply(QtS3ReplyPrivate *replyPrivate)
 
 }
 
-QPM_END_NAMESPACE(com, github, msorvig, s3)
+} } } }
 
 #endif

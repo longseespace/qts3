@@ -9,7 +9,7 @@
 
 #include <functional>
 
-QPM_BEGIN_NAMESPACE(com, github, msorvig, s3)
+namespace com { namespace github { namespace msorvi { namespace s3 {
 
 Q_DECLARE_LOGGING_CATEGORY(qts3_API)
 Q_DECLARE_LOGGING_CATEGORY(qts3_Internal)
@@ -165,6 +165,6 @@ public:
     QByteArray bytearrayValue();
 };
 
-QPM_END_NAMESPACE(com, github, msorvig, s3)
+} } } }
 
 #endif
